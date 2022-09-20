@@ -35,4 +35,6 @@ app.use(session({
 }));
 
 //use routes
+app.use('/', indexRouter)
+
 app.listen(3000);
